@@ -7,7 +7,7 @@ def extract_text_from_pdf(pdf_path):
     return extract_text(pdf_path, codec='utf-8', laparams=laparams)
 
 # Eingabeaufforderung für den Benutzer, um den Pfad zur PDF-Datei zu erhalten
-pdf_name = input("Bitte geben Sie den Pfad zur PDF-Datei ein: ")
+pdf_name = input("Bitte geben Sie den Namen der PDF-Datei auf dem Desktop ein: ")
 pdf_path = os.path.join('/Users/tom.backert/Desktop/', pdf_name)
 
 # Extrahieren des Basisnamens und Erstellen des Ausgabepfad
